@@ -1,0 +1,50 @@
+ 
+main {
+  padding-bottom: 20px;
+}
+
+body{
+	background: url(img/index.jpg) no-repeat;
+   -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+/*
+    background-size: auto;
+	height: 35vw;
+*/
+	font-family: roboto;
+	font-size: 20px;
+}
+.navbar {
+  margin-bottom: 20px;
+}
+ul li {
+	margin-right: 50px;
+	margin-left: 10px;
+	 
+}
+
+ 
+.footer {
+  background-color: #f5f5f5;
+ 
+}
+
+.footer > .container {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+@media(max-width:600px){
+	section{
+/*		color: red;*/
+	}
+ 
+	#social{
+		width: 600px;
+		padding-left: 170px;
+	}
+ 
+	 
+}
